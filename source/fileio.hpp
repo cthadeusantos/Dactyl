@@ -9,6 +9,7 @@
 #include <string>
 #include <stack>
 
+//using Matrix = std::vector<std::vector<int>>;
 using Matrix = std::vector<std::vector<int>>;
 
 // Estrutura de nó para a árvore derivada do formato Newick

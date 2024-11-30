@@ -40,7 +40,7 @@ int main(int argc, char* argv[]) {
                 std::cout << "Árvore em formato Newick carregada:\n";
                 std::cout << reader.getNewickTree() << "\n";
 
-                treenode.emplace_back(a.parseNewick(reader.getNewickTree())); // Parseando as strings Newick e adicionando ao vetor
+                treenode.push_back(a.parseNewick(reader.getNewickTree())); // Parseando as strings Newick e adicionando ao vetor
             }
         } else {
             std::cerr << "Falha ao processar o arquivo.\n";

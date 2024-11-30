@@ -6,6 +6,8 @@
 #include <cmath> // Para std::abs e std::sqrt
 #include <string>
 #include <stack>
+#include <cstddef>
+
 
 #include "fileio.hpp"
 // // Estrutura de um nó da árvore        

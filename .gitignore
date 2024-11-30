@@ -1,0 +1,4 @@
+nocommit/
+.venv
+
+build/release/*

@@ -66,7 +66,7 @@ TreeNode* Metrics::parseNewick(const std::string& newick) {
         } else {
             label += ch; // Acumula o rótulo
         }
-    }
+    };
 
     return current; // Raiz da árvore
 }
